@@ -52,7 +52,6 @@ for tweet in tweets:
     #decoding html escaped characters
     text_filtered = html.unescape(text_filtered)
     #write text to the CVS file
-    #  tweet.place
     csvWriter.writerow([tweet.created_at, text_filtered])
     print(tweet.created_at, text_filtered)
 csvFile.close()
