@@ -7,7 +7,7 @@ import html
 consumer_key=""
 consumer_secret=""
 
-access_token="495370382-"
+access_token=""
 access_token_secret=""
 
 # authenticate twitter handle for verifying identity using tweepy functions
